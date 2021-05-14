@@ -1,0 +1,5 @@
+2019-06-18 15:59:19,488 INFO     None GET http://localhost:8003/ 127.0.0.1
+2019-06-18 15:59:19,516 INFO     False GET http://localhost:8003/login 127.0.0.1
+2019-06-18 15:59:23,875 INFO     admin POST http://localhost:8003/login 127.0.0.1
+2019-06-18 15:59:36,749 INFO     admin POST http://localhost:8003/login 127.0.0.1
+2019-06-18 15:59:36,789 INFO     admin GET http://localhost:8003/index 127.0.0.1
