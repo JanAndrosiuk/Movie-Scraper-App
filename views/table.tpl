@@ -15,7 +15,7 @@
             <!-- chart morris start -->
 
                 <header class="panel-heading">
-                  <h3>Tabela</Char>
+                  <h3>Scraped DataFrame</Char>
                       </header>
 
                           {{!tabela}}

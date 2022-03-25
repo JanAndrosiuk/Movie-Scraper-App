@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
   <meta name="author" content="Jan Androsiuk & Szymon Socha">
-  <meta name="keyword" content="Python, Projekt, WebApp, Bootstrap">
+  <meta name="keyword" content="Python, Project, WebApp, Bootstrap">
   <link rel="shortcut icon" href="/static/img/favicon.png">
 
   <title>Creative - Bootstrap Admin Template</title>
@@ -51,7 +51,7 @@
       </div>
 
       <!--logo start-->
-      <a href="/" class="logo">Projekt <span class="lite">Python</span></a>
+      <a href="/" class="logo">Project <span class="lite">Python</span></a>
       <!--logo end-->
     </header>
     <!--header end-->
@@ -64,19 +64,19 @@
           <li class="active">
             <a class="" href="/">
                           <i class="icon_documents_alt"></i>
-                          <span>Nasz kod</span>
+                          <span>Our code</span>
                       </a>
           </li>
           <li class="sub-menu">
             <a href="javascript:;" class="">
             
                           <i class="icon_piechart"></i>
-                          <span>Wykresy</span>
+                          <span>Plots</span>
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
             <ul class="sub">
-			  <li><a class="" href="/wykresy/">Główny</a></li>
-              <li><a class="" href="/wykresy2/">Polar i radar</a></li>
+			  <li><a class="" href="/wykresy/">Charts - 1st group</a></li>
+              <li><a class="" href="/wykresy2/">Charts - 2nd group</a></li>
             </ul>
                       </a>
 
@@ -85,11 +85,11 @@
           <li class="sub-menu">
             <a href="javascript:;" class="">
                           <i class="icon_table"></i>
-                          <span>Dane</span>
+                          <span>Data</span>
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
             <ul class="sub">
-              <li><a class="" href="/scrap/">Pobierz najnowsze dane</a></li>
+              <li><strong><a style="color: MediumSeaGreen; border:2px solid MediumSeaGreen; border-radius: 10px;" class="" href="/scrap/">Update dataset</a></strong></li>
               <li><a class="" href="/basic_table/">Dataframe</a></li>
             </ul>
           </li>

@@ -1,4 +1,4 @@
-% rebase('base.tpl', title='Wykresy')
+% rebase('base.tpl', title='Charts 2')
 {{!zawartosc or ''}}
 
 %
@@ -12,10 +12,10 @@
         <section class="wrapper">
           <div class="row">
             <div class="col-lg-12">
-              <h3 class="page-header"><i class="icon_piechart"></i> Chart</h3>
+              <h3 class="page-header"><i class="icon_piechart"></i>Charts</h3>
               <ol class="breadcrumb">
                 <li><i class="fa fa-home"></i><a href="/">Home</a></li>
-                <li><i class="icon_piechart"></i>Chart</li>
+                <li><i class="icon_piechart"></i>Charts 2</li>
 
               </ol>
             </div>
@@ -25,7 +25,7 @@
             <div class="col-lg-12">
               <section class="panel">
                 <header class="panel-heading">
-                  <h3>General Chart</Char>
+                  <h3></Char>
                       </header>
                       <div class="panel-body">
                         <div class="tab-pane" id="chartjs">
@@ -34,7 +34,7 @@
                           <div class="col-lg-12">
                               <section class="panel">
                                   <header class="panel-heading">
-                                      Polar Chart
+                                      Genre BoxOffice Polar Chart
                                   </header>
                                   <div class="panel-body text-center">
                                     
@@ -67,7 +67,7 @@
 													},
 													title: {
 														display: true,
-														text: 'Gatunek a skumulowany Boxoffice'
+														text: 'Movie genre and cumulated BoxOffice [USD]'
 													}
 												}
 											});
@@ -85,7 +85,7 @@
                           <div class="col-lg-12">
                               <section class="panel">
                                   <header class="panel-heading">
-                                      Radar
+                                      Multi-attribute Radar Chart
                                   </header>
                                   <div class="panel-body text-center">
 									<body>
@@ -94,7 +94,7 @@
 										<script>
 											var data = {{!dane_radar}};
 											var layout = {
-												title:'Podsumowujący',
+												title:'Movie attributes distributions for each genre',
 												polar: {
 													radialaxis: {
 													visible: true,

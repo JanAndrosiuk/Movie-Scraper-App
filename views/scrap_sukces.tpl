@@ -19,7 +19,7 @@
                   <button data-dismiss="alert" class="close close-sm" type="button">
                                       <i class="icon-remove"></i>
                                   </button>
-                  <strong>Sukces!</strong> Baza danych zostala zaktualizowana.
+                  <strong>Success!</strong> Dataset was updated.
                 </div>
               </div>
             </section>

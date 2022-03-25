@@ -19,7 +19,7 @@
                   <button data-dismiss="alert" class="close close-sm" type="button">
                                       <i class="icon-remove"></i>
                                   </button>
-                  <strong>Uwaga!</strong> Nowe dane nie róznia sie od starych.
+                  <strong>Warning!</strong> No new data has been updated
                 </div>
               </div>
             </section>
