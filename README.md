@@ -1,4 +1,4 @@
-# MovieScraperApp
+# Movie Scraper App
 _Jan Androsiuk [[GitHub]](https://github.com/JanAndrosiuk) & Szymon Socha [[GitHub]](https://github.com/szymonsocha)_, January 2021
 
 We present a simple python WebApp made in _bottle_ library. The app scrapes movie data from popular polish movie database `Filmweb.pl` and stores information about 
